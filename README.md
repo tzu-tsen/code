@@ -80,6 +80,7 @@ We provide the training code for AffectNet, RAF-DB, FERPlus, CK+, JAFFE and SFEW
 | AffectNet-8   | 61.85	| 61.25	| 62.12	| [download](https://drive.google.com/drive/folders/1Y1aDynHIoF60qIwmIvkqrepON-CctJNy?usp=sharing) |
 | RAF-DB        | 88.81	| 87.22	| 87.65	| [download](https://drive.google.com/drive/folders/1a_MaEgAp4WjAbnrAx5pHFq2ckShj7ldp?usp=sharing) |
 | FERPlus       | 86.25	| 85.50	| 85.19	| [download](https://drive.google.com/drive/folders/1oT66YrNeevVqzaFdmXXdeZYLLS0YPq_9?usp=sharing) |
+| CK+           | 99.68	| 99.81	| 99.55	| [download](https://drive.google.com/drive/folders/1MDzkws9jk20FUBPZDZ2V0ux1lzaF34d8?usp=sharing) |
 
 Model trained on AffectNet database
 | Dataset |	Global-ROI Net Accuracy (%) |	Global Net Accuracy (%) |	Accuracy (%) |
@@ -128,6 +129,15 @@ Model trained on RAF-DB database
     Enter path_model_roi (default:model/ferplus/roi.path): 
     Enter path_model_global (default:model/ferplus/global.path): 
     Enter db path (default:/autohome/user/tzutsen/database/FERPlus): 
+    ```
+
+* For CK+ dataset, run:
+    ```
+    python ck.py
+    Enter cuda (default:0): 
+    Enter path_model_roi_folder (default:model/ck/roi): 
+    Enter path_model_global_folder (default:model/ck/global): 
+    Enter db path (default:/autohome/user/tzutsen/database/CK+/test):     
     ```
 
 * For CK+ dataset, model trained on AffectNet database, run:
