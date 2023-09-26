@@ -71,7 +71,14 @@ We provide the training code for AffectNet, RAF-DB And FERPlus.
     Enter cuda (default:0): 
     Enter path (default:/autohome/user/tzutsen/database/FERPlus): 
     ```
-	
+
+* For CK+ dataset, run:
+    ```
+    python ck.py 
+    Enter cuda (default:0): 
+    Enter path_test (default:/autohome/user/tzutsen/database/CK+/test):
+    ```
+    	
 ## Test
 We provide the training code for AffectNet, RAF-DB, FERPlus, CK+, JAFFE and SFEW 2.0.
 | Dataset   | Global-ROI Net Accuracy (%)	| Global Net Accuracy (%) |	Accuracy (%)	| link |
