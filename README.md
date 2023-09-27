@@ -9,6 +9,7 @@ PyTorch 1.12.1、Python 3.10.8、Dlib 19.24.0
 * Download [AffectNet](http://mohammadmahoor.com/affectnet/) dataset
 * Download [RAF-DB](http://www.whdeng.cn/raf/model1.html) dataset
 * Download [FERPlus](https://github.com/Microsoft/FERPlus) dataset
+* Download [CK+](https://www.kaggle.com/datasets/shawon10/ckplus) dataset
 * Get ROI
   1. RAF-DB dataset use MTCNN get face
   2. Download [dlib 68 landmarks.dat](https://drive.google.com/file/d/1r-iq7F3u0VCQIedr43TD8iADF9UAxjTT/view?usp=drive_link), put it in the get_roi directory
@@ -42,7 +43,7 @@ PyTorch 1.12.1、Python 3.10.8、Dlib 19.24.0
     ```
 
 ## Training
-We provide the training code for AffectNet, RAF-DB And FERPlus.
+We provide the training code for AffectNet, RAF-DB, FERPlus, and CK+.
 
 * Go to folder：
     * Global-ROI Net：Go to global_roi folder
